@@ -1,0 +1,34 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; font-size: 14px; background: #f0f0f0; color: #333; min-width: 900px; }
+a { color: #06c; }
+.wrap { width: 900px; margin: 0 auto; padding: 15px; }
+header { background: #2563eb; padding: 10px 0; margin-bottom: 15px; }
+header .wrap { padding: 8px 15px; color: #fff; }
+header a { color: #fff; margin-left: 12px; text-decoration: none; }
+header b { color: #fff; }
+.box { background: #fff; border: 1px solid #ccc; padding: 20px; margin-bottom: 15px; }
+h1, h2 { margin-bottom: 12px; }
+.form-row { margin-bottom: 10px; }
+.form-row label { display: block; font-weight: bold; margin-bottom: 3px; }
+.form-row input, .form-row select, .form-row textarea { width: 100%; max-width: 400px; padding: 7px; border: 1px solid #999; }
+.error { color: #c00; font-size: 12px; }
+.msg-ok { background: #dfd; border: 1px solid #080; padding: 8px; margin-bottom: 10px; }
+.msg-err { background: #fdd; border: 1px solid #c00; padding: 8px; margin-bottom: 10px; }
+.btn { display: inline-block; padding: 8px 16px; background: #2563eb; color: #fff; border: none; cursor: pointer; text-decoration: none; }
+.btn:hover { background: #1d4ed8; color: #fff; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+table th, table td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+table th { background: #eee; }
+.ads { display: flex; gap: 10px; margin: 15px 0; }
+.ad { flex: 1; background: #fff; border: 1px solid #ccc; padding: 10px; text-align: center; }
+.ad-ph { height: 80px; background: #ddd; border: 1px dashed #999; line-height: 80px; color: #666; margin-bottom: 8px; }
+.slider { position: relative; height: 200px; overflow: hidden; border: 1px solid #ccc; margin-bottom: 10px; }
+.slider-track { display: flex; height: 100%; transition: transform .3s; }
+.slide { min-width: 100%; background: #dde; display: flex; align-items: center; justify-content: center; border: 1px dashed #99a; }
+.slider-btn { position: absolute; top: 45%; background: #333; color: #fff; border: none; width: 30px; height: 30px; cursor: pointer; }
+.slider-btn.prev { left: 5px; }
+.slider-btn.next { right: 5px; }
+.tabs { margin-bottom: 10px; }
+.tabs a { display: inline-block; padding: 8px 12px; margin-right: 5px; background: #fff; border: 1px solid #ccc; text-decoration: none; color: #333; }
+.tabs a.active { background: #2563eb; color: #fff; border-color: #2563eb; }
+.foot { text-align: center; padding: 15px; font-size: 12px; color: #666; }
